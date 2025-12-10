@@ -47,7 +47,7 @@ export default function Navbar() {
             />
           </div>
 
-          {/*DESKTOP LINKS*/}
+          {/*DESKTOP Links*/}
           <div className="hidden md:flex items-center gap-10">
             {SITE_CONTENT.nav.links.map((link, idx) => (
               <Link
